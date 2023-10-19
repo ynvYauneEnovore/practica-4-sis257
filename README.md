@@ -21,7 +21,7 @@ En Bolivia Gastronómica, nuestro objetivo es presentar los sabores, los ingredi
 Clona este repositorio en tu máquina local
 
 <pre><code>
-git clone https://github.com/Yovanuxf/Bolivia-Gastronomica.git
+git clone https://github.com/ynvYauneEnovore/practica-4-sis257
 </code></pre>
 
 Abre el archivo index.html en tu navegador para explorar el menú.
