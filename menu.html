@@ -1,0 +1,65 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web</title>
+    <link href="/css/bootstrap.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="/css/menu.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="icon" type="image/svg+xml" href="/img/ico/menu.svg">
+
+
+
+</head>
+<body>
+    <div id="header"></div>
+
+    <div class="filter-menu">
+      <div class="price-filter">
+        <label for="price-range">Precio: </label>
+        <input type="range" id="price-range" min="0" max="100" value="0">
+      </div>
+
+
+        <input type="text" id="search-input" placeholder="Buscar país...">
+
+
+
+        <select id="country-filter">
+          <!-- Las opciones se cargarán aquí dinámicamente -->
+        </select>
+ 
+ 
+    </div>
+
+    <div class="pagination">
+      <button id="prev-page">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-player-track-prev-filled" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <path d="M20.341 4.247l-8 7a1 1 0 0 0 0 1.506l8 7c.647 .565 1.659 .106 1.659 -.753v-14c0 -.86 -1.012 -1.318 -1.659 -.753z" stroke-width="0" fill="currentColor" />
+          <path d="M9.341 4.247l-8 7a1 1 0 0 0 0 1.506l8 7c.647 .565 1.659 .106 1.659 -.753v-14c0 -.86 -1.012 -1.318 -1.659 -.753z" stroke-width="0" fill="currentColor" />
+        </svg>
+      </button>
+
+      <div id="menu-items" class="menu-container"></div>
+
+      <button id="next-page">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-player-track-next-filled" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <path d="M2 5v14c0 .86 1.012 1.318 1.659 .753l8 -7a1 1 0 0 0 0 -1.506l-8 -7c-.647 -.565 -1.659 -.106 -1.659 .753z" stroke-width="0" fill="currentColor" />
+          <path d="M13 5v14c0 .86 1.012 1.318 1.659 .753l8 -7a1 1 0 0 0 0 -1.506l-8 -7c-.647 -.565 -1.659 -.106 -1.659 .753z" stroke-width="0" fill="currentColor" />
+        </svg>
+      </button>
+    </div>
+
+    <div id="footer"></div>
+
+    <script src="/js/componentes.js" crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.js" crossorigin="anonymous"></script>
+    <script src="/js/data.js" crossorigin="anonymous"></script>
+    <script src="/js/select.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

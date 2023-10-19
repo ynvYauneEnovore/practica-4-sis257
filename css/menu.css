@@ -1,0 +1,134 @@
+/* inicio la lista de menu */
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 5%;
+    padding-top: 0%;
+  }
+  
+  .menu-card {
+    border: 1px solid #ffffff;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+    text-align: left;
+    box-shadow: 2px 2px 5px #888888;
+    color: #ffffff;
+    background-color: #333;
+    border-radius: 10px;
+  }
+
+   /* Estilo para el encabezado (nombre) */
+.menu-card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffcc00; /* Cambia el color que desees */
+    margin-bottom: 10px;
+    background-color: #e4ff992d;
+    border-radius: 30px;
+    text-align: center;
+    padding: 2%;
+}
+
+/* Estilo para la descripción (main) */
+.menu-card p.description {
+    font-size: 14px;
+    color: #960000;
+    margin-bottom: 10px;
+    max-height: 50px; /* Limita la altura de la descripción */
+    overflow: hidden;
+}
+
+/* Efecto al pasar el mouse sobre una tarjeta */
+.menu-card:hover {
+    transform: scale(1.05); /* Aumenta el tamaño al pasar el mouse */
+    transition: transform 0.3s; /* Agrega una transición suave */
+}
+
+/* fin la lista de menu */
+
+
+/* Estilos para el menú de filtros */
+.filter-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin: 5px;
+    padding: 10px;
+  }
+  
+  .filter-menu > div {
+    margin: 5px; /* Espaciado entre los elementos dentro del contenedor */
+}
+  
+   
+  /* Estilos para el filtro de país */
+  #country-filter {
+    width: 20%;
+    padding: 10px;
+    margin: 1%;
+  }
+
+  .categoria {
+    background-image: radial-gradient(circle at 12.5% 12.5%, #ffbf0059 0, #ffaa0052 16.67%, #fa960067 33.33%, #ed7c0c77 50%, #dd641957 66.67%, #cf52205b 83.33%, #c1402656 100%);
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+  }
+
+  .descripcion {
+    font-size: 12px;
+  }
+  
+
+  /* Estilos para el campo de búsqueda */
+#search-input {
+  width: 20%; /* Ancho del campo de búsqueda */
+  padding: 10px; /* Espacio interior */
+  border: 1px solid #ccc; /* Borde */
+  border-radius: 5px; /* Bordes redondeados */
+  font-size: 16px; /* Tamaño de fuente */
+  background-color: #f5f5f5; /* Color de fondo */
+}
+
+/* Estilos para el campo de búsqueda cuando está enfocado (seleccionado) */
+#search-input:focus {
+  border-color: #007BFF; /* Cambio de color del borde */
+  background-color: #fff; /* Cambio de color de fondo */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Sombra cuando está enfocado */
+}
+
+
+
+/* Estilo para los botones de paginación */
+.pagination {
+  text-align: center;
+  background-position-x: center;
+}
+
+.pagination button {
+  background-color: #fbff0017; /* Color de fondo azul, puedes personalizarlo */
+  color: #333; /* Color de texto blanco */
+  padding: 10px 20px; /* Espaciado interno para los botones */
+  margin: 10px 5px; /* Espaciado externo entre los botones */
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s; /* Agregar una transición para todos los cambios */
+}
+
+/* Estilo para los botones al pasar el mouse */
+.pagination button:hover {
+  background-color: #ffcc00; /* Cambiar el color de fondo al pasar el mouse, puedes personalizarlo */
+  transform: scale(1.1); /* Aumentar el tamaño en un 10% */
+  color: #000; /* Cambiar el color del texto al pasar el mouse, puedes personalizarlo */
+}
+
+
+/* Estilo para los botones deshabilitados */
+.pagination button:disabled {
+  background-color: #ccc; /* Color de fondo gris para botones deshabilitados */
+  cursor: not-allowed;
+}

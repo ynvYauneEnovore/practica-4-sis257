@@ -1,0 +1,38 @@
+[
+  {
+    "value": "bolivia",
+    "label": "Bolivia"
+  },
+  {
+    "value": "argentina",
+    "label": "Argentina"
+  },
+  {
+    "value": "brasil",
+    "label": "Brasil"
+  },
+  {
+    "value": "chile",
+    "label": "Chile"
+  },
+  {
+    "value": "colombia",
+    "label": "Colombia"
+  },
+  {
+    "value": "ecuador",
+    "label": "Ecuador"
+  },
+  {
+    "value": "mexico",
+    "label": "México"
+  },
+  {
+    "value": "peru",
+    "label": "Perú"
+  },
+  {
+    "value": "venezuela",
+    "label": "Venezuela"
+  }
+]

@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+}
+
+/* inicio de menu de filtros */
+.filter-menu {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.filter-menu h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.filter-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.filter-menu li {
+    margin-bottom: 5px;
+}
+
+.filter-menu a {
+    text-decoration: none;
+    color: #333;
+}
+
+.filter-menu a.active {
+    font-weight: bold;
+    color: #007bff;
+}
+/* fin de menu de filtros */
+

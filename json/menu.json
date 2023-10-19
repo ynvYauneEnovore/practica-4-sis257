@@ -1,0 +1,338 @@
+[
+    {
+        "nombre": "Salteñas",
+        "descripcion": "Empanadas bolivianas rellenas de carne, papas y huevo.",
+        "precio": 12.99,
+        "categoria": "Entradas",
+        "pais": "Bolivia"
+    },
+    {
+        "nombre": "Ceviche",
+        "descripcion": "Pescado crudo marinado en jugo de limón y especias.",
+        "precio": 14.99,
+        "categoria": "Entradas",
+        "pais": "Perú"
+    },
+    {
+        "nombre": "Tacos al Pastor",
+        "descripcion": "Tacos mexicanos con carne de cerdo adobada.",
+        "precio": 10.99,
+        "categoria": "Platos Principales",
+        "pais": "México"
+    },
+    {
+        "nombre": "Feijoada",
+        "descripcion": "Guiso de frijoles negros con carne de cerdo, típico de Brasil.",
+        "precio": 18.99,
+        "categoria": "Platos Principales",
+        "pais": "Brasil"
+    },
+    {
+        "nombre": "Parrillada",
+        "descripcion": "Asado de carne a la parrilla con chorizos y morcillas.",
+        "precio": 22.99,
+        "categoria": "Platos Principales",
+        "pais": "Argentina"
+    },
+    {
+        "nombre": "Arepas",
+        "descripcion": "Tortas de maíz rellenas de queso o carne, populares en Venezuela y Colombia.",
+        "precio": 8.99,
+        "categoria": "Acompañamientos",
+        "pais": "Venezuela"
+    },
+    {
+        "nombre": "Pisco Sour",
+        "descripcion": "Cóctel peruano a base de pisco y limón.",
+        "precio": 7.99,
+        "categoria": "Bebidas",
+        "pais": "Perú"
+    },
+    {
+        "nombre": "Dulce de Leche",
+        "descripcion": "Postre a base de leche caramelizada, común en varios países de América Latina.",
+        "precio": 6.99,
+        "categoria": "Postres",
+        "pais": "Argentina"
+    },
+    {
+        "nombre": "Gallo Pinto",
+        "descripcion": "Plato de arroz y frijoles típico de Costa Rica y Nicaragua.",
+        "precio": 9.99,
+        "categoria": "Acompañamientos",
+        "pais": "Costa Rica"
+    },
+    {
+        "nombre": "Causa Rellena",
+        "descripcion": "Plato peruano a base de papa amarilla y relleno de pollo o atún.",
+        "precio": 12.99,
+        "categoria": "Entradas",
+        "pais": "Perú"
+    },
+    {
+        "nombre": "Tamales",
+        "descripcion": "Tamales de maíz rellenos de carne, chiles y otros ingredientes, cocidos en hojas de maíz.",
+        "precio": 9.99,
+        "categoria": "Platos Principales",
+        "pais": "México"
+    },
+    {
+        "nombre": "Asado",
+        "descripcion": "Un tradicional asado uruguayo con carne a la parrilla, chorizos y morcillas.",
+        "precio": 18.99,
+        "categoria": "Platos Principales",
+        "pais": "Uruguay"
+    },
+    {
+        "nombre": "Ajiaco",
+        "descripcion": "Sopa espesa de papas, pollo, maíz y guascas, servida con crema y aguacate.",
+        "precio": 12.99,
+        "categoria": "Platos Principales",
+        "pais": "Colombia"
+    },
+    {
+        "nombre": "Pabellón Criollo",
+        "descripcion": "Un plato que combina carne mechada, arroz, frijoles negros y plátanos fritos.",
+        "precio": 14.99,
+        "categoria": "Platos Principales",
+        "pais": "Venezuela"
+    },
+    {
+        "nombre": "Ceviche de Camarones",
+        "descripcion": "Camarones cocidos en jugo de limón con cebolla, tomate y cilantro.",
+        "precio": 15.99,
+        "categoria": "Entradas",
+        "pais": "Ecuador"
+    },
+    {
+        "nombre": "Mole",
+        "descripcion": "Un rico guiso a base de chiles, chocolate y especias, servido con pollo o carne.",
+        "precio": 16.99,
+        "categoria": "Platos Principales",
+        "pais": "México"
+    },
+    {
+        "nombre": "Cazuela de Mariscos",
+        "descripcion": "Un guiso de mariscos con pescado, camarones, almejas y papas en un caldo de pescado.",
+        "precio": 20.99,
+        "categoria": "Platos Principales",
+        "pais": "Chile"
+    },
+    {
+        "nombre": "Lomo Saltado",
+        "descripcion": "Trozos de carne de res salteados con cebolla, tomate, papas y sazonados con salsa de soja.",
+        "precio": 17.99,
+        "categoria": "Platos Principales",
+        "pais": "Perú"
+    },
+    {
+        "nombre": "Chivito",
+        "descripcion": "Un sándwich de carne de res asada con jamón, huevo frito, lechuga y tomate.",
+        "precio": 13.99,
+        "categoria": "Platos Principales",
+        "pais": "Uruguay"
+    },
+    {
+        "nombre": "Sancocho",
+        "descripcion": "Un guiso espeso con carne de res, plátanos, yuca y maíz.",
+        "precio": 14.99,
+        "categoria": "Platos Principales",
+        "pais": "República Dominicana"
+    },
+    {
+        "nombre": "Paella",
+        "descripcion": "Arroz con azafrán, mariscos y pollo.",
+        "precio": 16.99,
+        "categoria": "Platos Principales",
+        "pais": "España"
+    },
+    {
+        "nombre": "Pizza Margherita",
+        "descripcion": "Pizza con tomate, mozzarella y albahaca.",
+        "precio": 12.99,
+        "categoria": "Platos Principales",
+        "pais": "Italia"
+    },
+    {
+        "nombre": "Coq au Vin",
+        "descripcion": "Pollo cocinado en vino tinto con champiñones y cebollas.",
+        "precio": 18.99,
+        "categoria": "Platos Principales",
+        "pais": "Francia"
+    },
+    {
+        "nombre": "Sushi",
+        "descripcion": "Rodajas de pescado crudo sobre arroz.",
+        "precio": 22.99,
+        "categoria": "Platos Principales",
+        "pais": "Japón"
+    },
+    {
+        "nombre": "Moussaka",
+        "descripcion": "Pastel de berenjenas, carne y bechamel.",
+        "precio": 15.99,
+        "categoria": "Platos Principales",
+        "pais": "Grecia"
+    },
+    {
+        "nombre": "Fish and Chips",
+        "descripcion": "Pescado rebozado con patatas fritas.",
+        "precio": 14.99,
+        "categoria": "Platos Principales",
+        "pais": "Reino Unido"
+    },
+    {
+        "nombre": "Tiramisú",
+        "descripcion": "Postre de capas de bizcocho empapado en café y crema de mascarpone.",
+        "precio": 8.99,
+        "categoria": "Postres",
+        "pais": "Italia"
+    },
+    {
+        "nombre": "Sauerbraten",
+        "descripcion": "Carne marinada y asada con salsa agria, típica de Alemania.",
+        "precio": 19.99,
+        "categoria": "Platos Principales",
+        "pais": "Alemania"
+    },
+    {
+        "nombre": "Pad Thai",
+        "descripcion": "Fideos de arroz salteados con camarones o pollo, típicos de Tailandia.",
+        "precio": 13.99,
+        "categoria": "Platos Principales",
+        "pais": "Tailandia"
+    },
+    {
+        "nombre": "Hummus",
+        "descripcion": "Puré de garbanzos con tahini, ajo y limón, común en el Medio Oriente.",
+        "precio": 9.99,
+        "categoria": "Aperitivos",
+        "pais": "Medio Oriente"
+    },
+    {
+        "nombre": "Goulash",
+        "descripcion": "Guiso de carne con paprika, típico de Hungría.",
+        "precio": 16.99,
+        "categoria": "Platos Principales",
+        "pais": "Hungría"
+    },
+    {
+        "nombre": "Couscous",
+        "descripcion": "Sémola de trigo cocida al vapor, común en el norte de África.",
+        "precio": 10.99,
+        "categoria": "Acompañamientos",
+        "pais": "Marruecos"
+    },
+    {
+        "nombre": "Poutine",
+        "descripcion": "Patatas fritas con queso y salsa de carne, típicas de Canadá.",
+        "precio": 11.99,
+        "categoria": "Aperitivos",
+        "pais": "Canadá"
+    },
+    {
+        "nombre": "Borscht",
+        "descripcion": "Sopa de remolacha, carne y verduras, común en Europa del Este.",
+        "precio": 12.99,
+        "categoria": "Platos Principales",
+        "pais": "Rusia"
+    },
+    {
+        "nombre": "Feijoada",
+        "descripcion": "Guiso de frijoles negros con carne de cerdo, típico de Brasil.",
+        "precio": 18.99,
+        "categoria": "Platos Principales",
+        "pais": "Brasil"
+    },
+    {
+        "nombre": "Baklava",
+        "descripcion": "Postre de capas de masa filo con nueces y miel, común en Grecia y Turquía.",
+        "precio": 7.99,
+        "categoria": "Postres",
+        "pais": "Grecia"
+    },
+    {
+        "nombre": "Dolma",
+        "descripcion": "Hojas de parra rellenas de arroz y carne, comunes en el Medio Oriente.",
+        "precio": 13.99,
+        "categoria": "Aperitivos",
+        "pais": "Medio Oriente"
+    },
+    {
+        "nombre": "Vada Pav",
+        "descripcion": "Sándwich de batata frita, típico de la cocina callejera de la India.",
+        "precio": 6.99,
+        "categoria": "Aperitivos",
+        "pais": "India"
+    },
+    {
+        "nombre": "Pierogi",
+        "descripcion": "Empanadillas de masa rellenas de queso, carne o patata, típicas de Polonia.",
+        "precio": 10.99,
+        "categoria": "Aperitivos",
+        "pais": "Polonia"
+    },
+    {
+        "nombre": "Kebab",
+        "descripcion": "Carne a la parrilla servida en pan de pita, común en el Medio Oriente.",
+        "precio": 9.99,
+        "categoria": "Platos Principales",
+        "pais": "Turquía"
+    },
+    {
+        "nombre": "Pho",
+        "descripcion": "Sopa de fideos de arroz con ternera o pollo, típica de Vietnam.",
+        "precio": 14.99,
+        "categoria": "Platos Principales",
+        "pais": "Vietnam"
+    },
+    {
+        "nombre": "Tzatziki",
+        "descripcion": "Salsa de yogur con pepino y ajo, común en Grecia y el Medio Oriente.",
+        "precio": 5.99,
+        "categoria": "Aperitivos",
+        "pais": "Grecia"
+    },
+    {
+        "nombre": "Pão de Queijo",
+        "descripcion": "Panecillos de queso, típicos de Brasil.",
+        "precio": 7.99,
+        "categoria": "Aperitivos",
+        "pais": "Brasil"
+    },
+    {
+        "nombre": "Kebab Espetinho",
+        "descripcion": "Brochetas de carne a la parrilla con verduras, típicas de Brasil.",
+        "precio": 12.99,
+        "categoria": "Platos Principales",
+        "pais": "Brasil"
+    },
+    {
+        "nombre": "Gyros",
+        "descripcion": "Carne de cerdo a la parrilla servida en pan de pita, típica de Grecia.",
+        "precio": 11.99,
+        "categoria": "Platos Principales",
+        "pais": "Grecia"
+    },
+    {
+        "nombre": "Rösti",
+        "descripcion": "Tortitas de patata crujientes, típicas de Suiza.",
+        "precio": 8.99,
+        "categoria": "Acompañamientos",
+        "pais": "Suiza"
+    },
+    {
+        "nombre": "Kimchi",
+        "descripcion": "Col china fermentada y picante, común en Corea.",
+        "precio": 5.99,
+        "categoria": "Aperitivos",
+        "pais": "Corea"
+    },
+    {
+        "nombre": "Samosa",
+        "descripcion": "Empanadillas rellenas de patata y especias, típicas de la India.",
+        "precio": 6.99,
+        "categoria": "Aperitivos",
+        "pais": "India"
+    }
+]
