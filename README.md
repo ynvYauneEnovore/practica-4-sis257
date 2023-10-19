@@ -20,22 +20,19 @@ En Bolivia Gastronómica, nuestro objetivo es presentar los sabores, los ingredi
 
 Clona este repositorio en tu máquina local
 
-
+<pre><code>
 git clone https://github.com/Yovanuxf/Bolivia-Gastronomica.git
-
-
+</code></pre>
 
 Abre el archivo index.html en tu navegador para explorar el menú.
 
 Disfruta de las delicias bolivianas que tenemos para ofrecer.
 
-##Contribuciones
+## Contribuciones
 Si eres un entusiasta de la cocina boliviana y deseas contribuir, estamos abiertos a colaboraciones. Si tienes una receta especial que te gustaría compartir o alguna idea para mejorar nuestro sitio, no dudes en abrir un issue o enviar un pull request.
 
-Contacto
+## Contacto
 Si tienes alguna pregunta, comentario o solicitud, no dudes en ponerte en contacto conmigo:
 
 Correo Electrónico: yovanuxf@gmail.com
-Twitter
-Instagram
 ¡Espero que disfrutes de tu viaje gastronómico por Bolivia con nosotros! Bon appétit.
