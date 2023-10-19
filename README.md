@@ -10,7 +10,7 @@ En Bolivia Gastronómica, nuestro objetivo es presentar los sabores, los ingredi
 
 ## Contenido
 
-- [Menú](menu.json): Explora nuestro menú de platos bolivianos.
+- [Menú](https://github.com/ynvYauneEnovore/practica-4-sis257/blob/main/json/pais.json): Explora nuestro menú de platos bolivianos.
 - [Países](json/pais.json): Descubre los países de Latinoamérica para filtrar platos.
 - [Recetas](recetas/): Encuentra recetas detalladas para preparar algunos de nuestros platos.
 - [Imágenes](img/): Contempla imágenes tentadoras de nuestras creaciones culinarias.
