@@ -4,6 +4,7 @@
         "descripcion": "Empanadas bolivianas rellenas de carne, papas y huevo.",
         "precio": 12.99,
         "categoria": "Entradas",
+        "imagen": "/img/1.jpg",
         "pais": "Bolivia"
     },
     {

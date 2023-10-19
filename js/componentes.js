@@ -17,3 +17,5 @@ Promise.all([
 .catch(error => {
     console.error('Error al cargar componentes:', error);
 });
+
+

@@ -1,13 +1,38 @@
-body{
-    background-color: black;
+body {
+    background-image: radial-gradient(circle at 84.32% 25.97%, #5d7279 0, #3a5b67 25%, #004153 50%, #002940 75%, #001631 100%);
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    height: 100vh;
+  }
+  
+  .overlay {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+.contenedor-inicial{
+    height: 590px;
+    padding-top: 10%;
+    
+
 }
 
 /* inicio de menu de filtros */
 .filter-menu {
-    background-color: #f1f1f1;
+    background-color: rgba(166, 237, 250, 0.397);
     padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 15px;
+    width: 375px;
+    align-self: flex-end;
+    margin: 15%;
+    
 }
 
 .filter-menu h2 {
@@ -26,12 +51,99 @@ body{
 
 .filter-menu a {
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
 }
 
 .filter-menu a.active {
     font-weight: bold;
-    color: #007bff;
+    color: #ffffff;
 }
 /* fin de menu de filtros */
 
+
+#navbar-example21 {
+    position: fixed;  /* Fija la barra de navegación en su posición */
+    top: 0;           /* Fija la barra en la parte superior de la ventana */
+    width: 100%;      /* Hace que la barra ocupe el 100% del ancho de la ventana */
+    z-index: 1000;  
+  }
+  
+
+  
+
+  
+  .surprise {
+    background-color: #007bff;
+    color: white; /* Color de texto blanco para mayor legibilidad */
+    border: none;
+    padding: 15px;
+    position: fixed;
+    bottom: 30px;
+    left: 50px; /* Cambia a la esquina inferior izquierda */
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+.surprise:hover{
+    animation-name: surprise;
+        -webkit-animation-name: surprise;
+        -moz-animation-name: surprise;
+    animation-duration: .8s;
+        -webkit-animation-duration: .8s;
+        -moz-animation-duration: .8s;
+}
+
+    @keyframes surprise
+    {
+        0% {transform: rotate(0deg) scale(1,1);;}
+        10% {transform: rotate(7deg) scale(2,2);}
+        20% {transform: rotate(-7deg) scale(2,2);}
+        30% {transform: rotate(7deg) scale(2,2);}
+        40% {transform: rotate(-7deg) scale(2,2);}
+        50% {transform: rotate(7deg) scale(2,2);}
+        60% {transform: rotate(-7deg) scale(2,2);}
+        70% {transform: rotate(7deg) scale(2,2);}
+        80% {transform: rotate(-7deg) scale(2,2);}
+        90% {transform: rotate(7deg) scale(2,2);}
+        100% {transform: rotate(0deg) scale(1,1);}
+    }
+              
+
+
+
+    .logo-img{
+        width: 300px;
+        height: auto;
+         align-self: center;
+    }
+
+
+
+    :root {
+        --loader-color-one: rgba(255, 0, 0, 0.329);
+        --loader-color-two: rgba(255, 217, 0, 0.267);
+        --loader-color-three: rgba(0, 128, 0, 0.267);
+    }
+    
+    .loader {
+   
+        height: 60px;
+        background: linear-gradient(90deg, var(--loader-color-one) 60%, #0000 0) 0 0%,
+            radial-gradient(circle, var(--loader-color-two) 30%, #0000 0) 0 50%,
+            linear-gradient(90deg, var(--loader-color-three) 60%, #0000 0) 0 100%;
+        background-size: 40px calc(100% / 3);
+        background-repeat: repeat-x;
+        animation: go 0.75s infinite linear;
+    }
+    @keyframes go {
+        100% {
+            background-position: -40px 0%, -80px 50%, -120px 100%;
+        }
+    }
+    
+    *,
+    * + * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
